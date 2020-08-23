@@ -1,0 +1,66 @@
+many employee can have one state,one manager,one department
+employee can give state,manager & department,but vice-versa not true,so this is a MANY-TO-ONE UNIDIRECTIONAL relationship
+employee details are:-
+======================
+
+1|Gabriel|SouthAmerica|Brazil|8880376971
+	state details
+	=============
+	1|221005|PUNJAB
+	manager details
+	===============
+	1|President
+	department details
+	==================
+	1|Electical
+----------------------------------------------
+
+2|Rivendell|LA|LittleAndaman|9945564050
+	state details
+	=============
+	1|221005|PUNJAB
+	manager details
+	===============
+	1|President
+	department details
+	==================
+	1|Electical
+----------------------------------------------
+**************************************************************************************************************************
+one manager can have many departments & one department can have many managers
+one manager can give many department and vice-versa ,so this is a MANY-TO-MANY BI-DIRECTIONAL relationship
+manager details are:-
+======================
+1|President
+	department details
+	==================
+
+	1|Electical
+----------------------------------------------
+
+3|Director
+	department details
+	==================
+
+	3|Payroll
+	2|Computing
+----------------------------------------------
+**************************************************************************************************************************
+one department can have many managers & one manager can have many departments
+one department can give many managers and vice-versa ,so this is a MANY-TO-MANY BI-DIRECTIONAL relationship
+department details are:-
+========================
+1|Electical
+	manager details
+	==================
+
+	2|Chairman
+	1|President
+----------------------------------------------
+3|Payroll
+	manager details
+	==================
+
+	3|Director
+----------------------------------------------
+**************************************************************************************************************************

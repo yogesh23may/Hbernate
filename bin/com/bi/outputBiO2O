@@ -1,0 +1,10 @@
+------------------------------------------------------------------------------------------------------
+book can give publisher and vice versa ,so this is ONE TO ONE ,BIDIRECTIONAL relationship
+
+book details(book can give publisher):-
+=====================================
+1|TRIGON|245.0---->1|TMH|CALIFORNIA
+
+publisher details(publisher can give book):-
+============================================
+1|TMH|CALIFORNIA---->1|TRIGON|245.0

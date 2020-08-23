@@ -1,0 +1,21 @@
+------------------------------------------------------------------------------------------------------
+book can give many publisher and publisher can give book also,so this is ONE TO MANY ,BI-DIRECTIONAL relationship
+
+book details(book can give publishers):-
+=====================================
+1|TRIGONOMETRY|245.0
+
+	publishers:-
+	============
+	2|Oreily|USA
+	
+	3|TutorialPoint|INDIA
+
+
+publisher details(publisher can give book):-
+================================================
+1|CALIFORNIA|TMH
+
+	book:-
+	============
+	2|SCIENCE|505.0

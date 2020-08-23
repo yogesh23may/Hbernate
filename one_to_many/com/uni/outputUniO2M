@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------------------------------
+book can give many publisher ,but vice versa not true ,so this is ONE TO MANY ,UNIDIRECTIONAL relationship
+
+book details(book can give publishers):-
+=====================================
+1|TRIGONOMETRY|245.0
+
+	publishers:-
+	============
+	
+	1|TMH|CALIFORNIA
+	
+	2|Oreily|USA
+	
+	3|TutorialPoint|INDIA
+
+publisher details(publisher cannot give book):-
+================================================
+1|CALIFORNIA|TMH
